@@ -7,5 +7,5 @@ def lowertocapital(lower):
             b=b+letter
     return b
         
-sentence='abcd1234f'
-print(lowertocapital(sentence))  # ASCII conversion
+string='word 123'
+print(lowertocapital(string))  # ASCII conversion
