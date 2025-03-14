@@ -14,3 +14,6 @@ for fileName in files:
 		#把原文件后缀名改为 txt
 		newName = portion[0] + ".jpg" 
 		os.rename(fileName, newName)
+
+
+
