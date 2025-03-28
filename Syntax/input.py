@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 def reversewords(input):
     inputwords=input.split(" ")
     inputwords=inputwords[-1::-1]
