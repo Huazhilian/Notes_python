@@ -7,5 +7,5 @@ def lowertocapital(lower):
             b=b+letter
     return b
         
-string='word 123'
-print(lowertocapital(string))  # ASCII conversion
+if __name__ == '__main__': # only run if this is the main module
+    print(lowertocapital('word 12345'))  # ASCII conversion
