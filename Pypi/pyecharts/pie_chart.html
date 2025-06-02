@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="8c59754f90144dc1a0bb936ca8621343" class="chart-container" style="width:1000px; height:600px; "></div>
+    <script>
+        var chart_8c59754f90144dc1a0bb936ca8621343 = echarts.init(
+            document.getElementById('8c59754f90144dc1a0bb936ca8621343'), 'dark', {renderer: 'canvas'});
+        var option_8c59754f90144dc1a0bb936ca8621343 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "pie",
+            "name": "Sales Distribution",
+            "colorBy": "data",
+            "legendHoverLink": true,
+            "selectedMode": false,
+            "selectedOffset": 10,
+            "clockwise": true,
+            "startAngle": 90,
+            "minAngle": 0,
+            "minShowLabelAngle": 0,
+            "avoidLabelOverlap": true,
+            "stillShowZeroSum": true,
+            "percentPrecision": 2,
+            "showEmptyCircle": true,
+            "emptyCircleStyle": {
+                "color": "lightgray",
+                "borderColor": "#000",
+                "borderWidth": 0,
+                "borderType": "solid",
+                "borderDashOffset": 0,
+                "borderCap": "butt",
+                "borderJoin": "bevel",
+                "borderMiterLimit": 10,
+                "opacity": 1
+            },
+            "data": [
+                {
+                    "name": "Product A",
+                    "value": 40
+                },
+                {
+                    "name": "Product B",
+                    "value": 30
+                },
+                {
+                    "name": "Product C",
+                    "value": 20
+                },
+                {
+                    "name": "Product D",
+                    "value": 10
+                }
+            ],
+            "radius": [
+                "40%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "position": "outside"
+            },
+            "labelLine": {
+                "show": true,
+                "showAbove": false,
+                "length": 15,
+                "length2": 15,
+                "smooth": false,
+                "minTurnAngle": 90,
+                "maxSurfaceAngle": 90
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Product A",
+                "Product B",
+                "Product C",
+                "Product D"
+            ],
+            "selected": {},
+            "orient": "horizontal",
+            "pos_left": "left"
+        }
+    ],
+    "tooltip": {
+        "trigger": "item",
+        "formatter": "{a} <br/>{b}: {c} ({d}%)"
+    },
+    "title": {
+        "text": "Sales Distribution by Product"
+    }
+};
+        chart_8c59754f90144dc1a0bb936ca8621343.setOption(option_8c59754f90144dc1a0bb936ca8621343);
+    </script>
+</body>
+</html>
