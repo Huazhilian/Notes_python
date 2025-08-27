@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  airq:
+    build: .
+    image: air-quality-clf:latest
+    container_name: airq
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: >
+      python train.py
+      --csv data/updated_pollution_dataset.csv
+      --use_mlp
+      --epochs 60
