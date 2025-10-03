@@ -1,0 +1,34 @@
+2025-10-03 16:46:06,974 - my_logger - DEBUG - Log message 998
+2025-10-03 16:46:06,975 - my_logger - DEBUG - Log message 999
+2025-10-03 16:47:06,844 - my_logger - ERROR - Error: something failed
+2025-10-03 16:47:20,651 - root - DEBUG - Debugging information
+2025-10-03 16:51:46,495 - root - ERROR - traceback info
+Traceback (most recent call last):
+  File "C:\Users\Taylor\AppData\Local\Temp\ipykernel_22164\3441180626.py", line 6, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2025-10-03 16:52:06,442 - root - ERROR - traceback info
+Traceback (most recent call last):
+  File "C:\Users\Taylor\AppData\Local\Temp\ipykernel_22164\3441180626.py", line 6, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2025-10-03 16:52:15,887 - root - ERROR - An error occurred
+Traceback (most recent call last):
+  File "C:\Users\Taylor\AppData\Local\Temp\ipykernel_22164\158455634.py", line 6, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2025-10-03 16:52:15,887 - root - ERROR - traceback info
+Traceback (most recent call last):
+  File "C:\Users\Taylor\AppData\Local\Temp\ipykernel_22164\158455634.py", line 6, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2025-10-03 17:07:37,734 - root - ERROR - traceback info
+Traceback (most recent call last):
+  File "C:\Users\Taylor\AppData\Local\Temp\ipykernel_22164\3441180626.py", line 6, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
